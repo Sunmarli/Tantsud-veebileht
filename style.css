@@ -1,0 +1,80 @@
+.w3-row{
+    margin-left: 50px;
+    top: 50px;
+}
+form{
+    margin-left: 50px;
+    top: 50px;
+}
+
+h1{
+    margin-left: 50px;
+    top: 50px;
+}
+
+#login_form{
+    background-color: cadetblue;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+}
+
+.user-info{
+    margin-right: 50px;
+    text-align: right;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Adjust the widths as needed */
+    gap: 10px; /* Adjust the gap between columns */
+}
+
+.column {
+    padding: 10px;
+   /* Add borders for clarity */
+}
+#otsing{
+    padding: 20px;
+
+}
+nav {
+   /* Align links in a row */
+    justify-content: space-around; /* Adjust alignment as needed */
+    padding: 20px; /* Add padding for space between links and container edge */
+}
+
+nav a {
+    justify-content: space-around;
+    text-decoration: none; /* Remove underlines from links */
+    background-color: cadetblue;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    transition: background-color 0.3s, transform 0.3s;
+    
+}
+
+nav a:hover {
+    background-color: steelblue; /* Change background color on hover */
+    transform: scale(1.05); /* Add a slight scale effect on hover */
+}
+
+
+#dance_image{
+    padding:30px;
+        margin-top: 170px;
+        position: absolute; /* Position the image absolutely */
+        top: 10px; /* Adjust the top distance as needed */
+        right: 50px; /* Adjust the right distance as needed */
+        max-width: 100%; /* Ensure the image doesn't exceed its container width */
+        height: auto; /* Automatically adjust the height to maintain aspect ratio */
+
+}
+
+
